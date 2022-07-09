@@ -1,0 +1,24 @@
+.item{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: auto;
+    gap: 20px;
+}
+.box{
+    border: 2px solid;
+    display: flex;
+    width: 90%;
+    margin: auto;
+}
+.img{
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+}
+.about{
+    width: 50%;
+}
+.more{
+    text-align: center;
+    width: 90%;
+}

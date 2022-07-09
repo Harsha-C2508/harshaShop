@@ -1,0 +1,33 @@
+.box{
+    display: flex;
+    border: 2px solid;   
+    justify-content: space-between;
+    background-color: #293476;
+    color: white;
+}
+.logo{
+    height: 70px;
+    margin: 10px;
+    width: 100px;
+    background-color: #293476;
+}
+.sechead{
+    display: flex;
+    width: 55%;
+    justify-content: space-between;
+}
+.link{
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+    font-weight: bolder;
+    margin-top: 20px;
+}
+.linked{
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+    font-weight: bolder;
+    margin-top: 20px;
+    margin-right: 10px;
+}

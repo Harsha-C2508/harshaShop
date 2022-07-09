@@ -1,0 +1,74 @@
+{
+    "painting":[
+        {
+            "id":1,
+            "name":"Inephos Wood Flowers Painting, Multicolour, Abstract, 85cm X 55cm",
+            "img":"https://m.media-amazon.com/images/I/61+gY2N+SlL._AC_UY218_.jpg",
+            "price": 2499,
+            "des":"It is in grey color with a theme of Floral & abstract and size - Framed Canvas Painting: 85cm X 55cm"
+        },
+        {
+            "id":2,
+            "name":"Set of 5 Radha Krishna with couple peacock UV Textured Home Decorative Gift ",
+            "img":"https://m.media-amazon.com/images/I/712v+LPeG4L._SX679_.jpg",
+            "price": "236",
+            "des":"It is in 1 color with a theme of Landscapes, Animals, Abstract, Religious, Flowers and size - Framed Canvas Painting: 18 Inch X 42 Inch"
+        },
+        {
+            "id":3,
+            "name":"Set of 5 Buddha UV Textured Home Decorative Gift",
+            "img":"https://m.media-amazon.com/images/I/71ybELw5rOL._SX522_.jpg",
+            "price": "268",
+            "des":"It is in multicolor with a theme of Landscapes, Animals, Abstract, Religious, Flowers and size - Framed Canvas Painting: 18 Inch X 42 Inch"
+        },
+        {
+            "id":4,
+            "name":"Ganesha UV Coated Home Decorative Gift",
+            "img":"https://m.media-amazon.com/images/I/91nYHepTupL._SX522_.jpg",
+            "price": "395",
+            "des":"It is in  multicolor with a theme of  Religious and dimension of 30cm 3cm 30cm"
+        },
+        {
+            "id":5,
+             "name":"Indianara Set of 3 Indian Village Framed Art Painting",
+            "img":"https://m.media-amazon.com/images/I/81t4EF21CDS._SX679_.jpg",
+            "price": "349",
+            "des":"It is in multicolor with a theme of folk Art and dimension - 33 x 55.9 x 2.5 Centimeters"
+        },
+        {
+            "id":6,
+            "name":"3 Pc Set of Floral Paintings",
+            "img":"https://m.media-amazon.com/images/I/91eO8aBDoML._SX522_.jpg",
+            "price": "266",
+            "des":"It is in  multicolor with a theme of Flowers and size 5.2 X 12.5, 9.5 X 12.5, 5.2 X 12.5 INCH"
+        },
+        {
+            "id":7,
+            "nam":"Set of 3 Hexagon Kid's Room Decor Modern",
+            "img":"https://m.media-amazon.com/images/I/818p6+nUaNL._SX522_.jpg",
+            "price": "189",
+            "des":"It is in multicolor with a theme Abstract, Religious, Flowers and size - Framed Canvas Painting: 12 inch X 12 inch"
+        },
+        {
+            "id":8,
+            "name":"FATMUG Wood Quote Wall Painting",
+            "img":"https://m.media-amazon.com/images/I/711FGQ3d2pL._SX522_.jpg",
+            "price": "1,049",
+            "des":"It is in multicolor with a theme quote and size - square"
+        },
+        {
+            "id":9,
+            "name":"Indianara VASTU SEVEN HORSES",
+            "img":"https://images-eu.ssl-images-amazon.com/images/I/41iIYPCAX8L._SX300_SY300_QL70_FMwebp_.jpg",
+            "price": "199",
+            "des":"It is in  multicolor with a theme of Animals and size - standard"
+        },
+        {
+            "id":10,
+            "name":"Set of 3 Dancing Women Framed Painting",
+            "img":"https://m.media-amazon.com/images/I/91baF6MouFL._SX522_.jpg",
+            "price": "301",
+            "des":"It is in 1 color with a theme of dancing and dimension- 33 x 55.9 x 2.5 Centimeters"
+        }
+    ]
+}
