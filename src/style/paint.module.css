@@ -9,6 +9,7 @@
     display: flex;
     width: 90%;
     margin: auto;
+    padding: 5px;
 }
 .img{
     height: 200px;
@@ -17,6 +18,7 @@
 }
 .about{
     width: 50%;
+    margin-left: 5px;
 }
 .more{
     text-align: center;
