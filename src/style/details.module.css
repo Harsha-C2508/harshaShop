@@ -3,18 +3,3 @@
     margin: auto;
     margin-bottom: 20px;
 }
-.btn{
-    display: flex;
-    width: 20%;
-    justify-content: space-between;
-    margin: auto;
-    margin-bottom: 10px;
-}
-.button{
-    padding: 10px;
-    width: 150px;
-}
-.wish{
-    width: 50px;
-    height: 50px;
-}

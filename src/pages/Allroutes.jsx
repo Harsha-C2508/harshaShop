@@ -10,11 +10,12 @@ import Painting from './Painting'
 import Wishlist from './Wishlist'
 
 const Allroutes = () => {
+
   return (
     <div>
         <Routes>
             <Route path='/' element={ <Home/> }/>
-            <Route path='/painting' element={ <RequireAuth><Painting/></RequireAuth> }/>
+            <Route path='/painting' element={ <RequireAuth><Painting/></RequireAuth>} />
             <Route path='/wishlist' element={ <Wishlist/> }/>
             <Route path='/cart' element={ <Cart/> } />
             <Route path='/login' element={ <Login/> }/>

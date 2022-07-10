@@ -3,8 +3,13 @@ import { useEffect } from 'react';
 import { useState } from 'react'
 import Styles from "../style/paint.module.css"
 import { Link } from 'react-router-dom';
+import { CgHeart,CgShoppingCart } from 'react-icons/cg';
+import { useContext } from 'react';
+import { CartItem } from '../context/CartContext';
 
 const Painting = () => {
+
+  const {cart,setCart} = useContext(CartItem)
   const [prod,setProd] = useState([]);
   useEffect(()=>{
     const fetchProduct=async()=>{
@@ -26,7 +31,12 @@ const Painting = () => {
              <div className={Styles.more}>
                 <h2>{p.name}{p.nam}</h2>
                 <p>Excellent gift item for your family,friends and loving ones</p>
-                 <p><Link to={`/painting/${p.id}`}>More details</Link></p>
+                <h3>Rs {p.price}</h3>
+                 <p><Link to={`/painting/${p.id}`} prod={prod}>More details</Link></p>
+                <div className={Styles.btn}>
+                   <button className={Styles.button} onClick={()=>{setCart([...cart,p])}}>Buy now <CgShoppingCart/></button>
+                   <button className={Styles.wish}><CgHeart/></button>
+                </div>
              </div>
         </div>
       ))}

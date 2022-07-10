@@ -5,7 +5,7 @@ const Home = () => {
     <div>
       <h1>Welcome to Oliviya</h1>
       <p>Enjoy your shopping after createing a profile</p>
-      <img src="https://assets.stickpng.com/thumbs/580b57fcd9996e24bc43c4c4.png" alt="smiley" />
+      <img src="https://i.pinimg.com/564x/bb/19/2d/bb192d00960abc2efa068122e8fd44d8.jpg" alt="smiley" />
     </div>
   )
 }

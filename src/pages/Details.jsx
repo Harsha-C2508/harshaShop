@@ -2,7 +2,6 @@ import React from 'react'
 import { useEffect } from 'react';
 import { useState } from 'react'
 import { Link, useParams } from 'react-router-dom';
-import { CgHeart,CgShoppingCart } from 'react-icons/cg';
 
 import Styles from '../style/details.module.css'
 const Details = () => {
@@ -21,10 +20,6 @@ const Details = () => {
       <img src={item.img} alt={item.name} />
       <h2><label>Price:</label> ₹ {item.price}</h2>
       <h4>{item.des}</h4>
-     <div className={Styles.btn}>
-        <button className={Styles.button} >Buy now <CgShoppingCart/></button>
-        <button className={Styles.wish}><CgHeart/></button>
-     </div>
      <Link to='/painting'>Go back</Link>
     </div>
   )

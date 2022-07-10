@@ -24,3 +24,18 @@
     text-align: center;
     width: 90%;
 }
+.btn{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    margin-bottom: 10px;
+}
+.button{
+    padding: 10px;
+    width: 150px;
+    height: 40px;
+}
+.wish{
+    width: 50px;
+    height: 40px;
+}

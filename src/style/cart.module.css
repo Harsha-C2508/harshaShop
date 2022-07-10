@@ -1,0 +1,19 @@
+.box{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: auto;
+    gap: 20px;
+}
+.contain{
+    border: 2px solid;
+    display: flex;
+}
+.about{
+    width: 50%;
+    margin-left: 5px;
+}
+.img{
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+}

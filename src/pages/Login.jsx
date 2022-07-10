@@ -20,6 +20,7 @@ const Login = () => {
     e.preventDefault();
     Login()
     navigate("/")
+    alert("LogIn successful")
   }
   return (
     <div>Login

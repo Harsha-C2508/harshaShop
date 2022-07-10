@@ -5,8 +5,10 @@ import Styles from '../style/navbar.module.css'
 import { useContext } from 'react';
 import { ThemeContext } from '../context/ThemeContext';
 import { AuthContext } from '../context/AuthContext';
+import { CartItem } from '../context/CartContext';
 
 const Navbar = () => {
+  const {cart} = useContext(CartItem)
   const {isLight,toggleTheme} = useContext(ThemeContext)
   const {isAuth,logout} = useContext(AuthContext)
     const navigate = useNavigate();
@@ -28,7 +30,7 @@ const Navbar = () => {
       <Link to='/' className={Styles.link}>Home</Link>
       <Link to='/painting' className={Styles.link}>Painting</Link>
       <Link to='/wishlist' className={Styles.link}><CgHeart/></Link>
-      <Link to='/cart' className={Styles.link}><CgShoppingCart/></Link>
+      <Link to='/cart' className={Styles.link}><CgShoppingCart/>{cart.length}</Link>
       <Link to='/login' className={Styles.linked} onClick={handlelogin}><CgProfile/></Link>
       <button 
             className={Styles.button} 
